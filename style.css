@@ -189,12 +189,6 @@
     height: 25em;
 }
 
-#locations img {
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-}
-
 .address {
     display: flex;
     justify-content: center;
