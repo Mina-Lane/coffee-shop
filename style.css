@@ -50,6 +50,7 @@
     margin: auto;
     width: 20em;
     margin-top: 5em;
+    max-width: 100%;
 }
 
 .tagline {
