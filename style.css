@@ -1,0 +1,251 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.nav-container {
+    margin: 0;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#header {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png");
+    background-size: cover;
+    opacity: 0.9;
+    height: 25em;
+}
+
+#header nav {
+    background-color: black;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 1px;
+}
+
+#header nav a {
+    text-decoration: none;
+    color: seashell;
+    padding: 0.5em 1em;
+}
+
+#header nav a:hover {
+    background-color: grey;
+}
+
+#header img {
+    display: block;
+    margin: auto;
+    width: 20em;
+    margin-top: 5em;
+}
+
+.tagline {
+    background-color: seashell;
+    text-align: center;
+    padding: 1.5em;
+    line-height: 1.5;
+}
+
+
+.tagline h2 {
+    color: black;
+    font-size: 2em;
+}
+
+.tagline h2::before {
+    content: "";
+    display: inline-block;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/beans.png");
+    height: 2.5em;
+    width: 2.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tagline p {
+    color: black;
+}
+
+.rating {
+    background-color: orangered;
+    text-align: center;
+    padding: 1.5em;
+    line-height: 1.5;
+
+}
+
+.rating h2 {
+    color: seashell;
+    font-size: 1.8em;
+}
+
+.rating p {
+    color: seashell;
+}
+
+#menu {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+}
+
+#menu h1 {
+    font-size: 3em;
+    font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 0.2em;
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+    padding: 1em;
+}
+
+.table-container table {
+    display: inline-block;
+    margin: auto;
+    padding: 1em;
+}
+
+.table-container table th {
+    text-align: left;
+}
+
+.gallery {
+    background-color: seashell;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em; 
+    padding: 2em;
+    list-style: none;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.img-container > li {
+    flex-basis: 300px;
+}
+ .img-container li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+ }
+
+ #locations {
+    background-color: orangered;
+ }
+
+ #locations h1 {
+    font-size: 3em;
+    font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 0.2em;
+    color: seashell;
+ }
+
+ #locations h2 {
+    font-size: 2em;
+    font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+    padding: 0.2em;
+    color: seashell;
+    text-align: center;
+ }
+
+.map-container {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/map.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    height: 25em;
+}
+
+#locations img {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+ }
+
+.address-box {
+    height: 400px;
+    width: 250px;
+    text-align: center;
+    padding: 0.5em;
+}
+
+address {
+    color: seashell;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+footer {
+    background-color: seashell;
+}
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-container nav {
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+}
+
+.footer-container nav a {
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.footer-container nav a:hover {
+    background-color: antiquewhite;
+}
+
+.copyright {
+    justify-content: flex-start;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+
